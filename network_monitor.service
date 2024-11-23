@@ -1,0 +1,9 @@
+[Unit]
+Description=Network Monitoring Script
+
+[Service]
+ExecStart=/root/network_monitor.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
